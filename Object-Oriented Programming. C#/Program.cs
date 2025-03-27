@@ -7,6 +7,7 @@ interface Humanbeing
 {
     void HumanSpeak(); //abstract method
 }
+
 class subclass : Animal,Humanbeing
 {
    public void  animalSpeak()
@@ -21,6 +22,7 @@ class subclass : Animal,Humanbeing
 }
 
 
+
 internal class Program
 {
     private static void Main(string[] args)
@@ -31,3 +33,11 @@ internal class Program
      
     }
 }
+//interface can be inherited by another interface
+//interface can be inherited by class
+//interface have only abstract method but you need to implement it in class
+//interface cannot have constructor
+//interface cannot have field
+//interface cannot have property
+//interface cannot have method body
+//interface can have property but only declaration
