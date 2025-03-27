@@ -7,6 +7,10 @@ namespace UserModule
     {
         private class UserInformation
         {
+            public UserInformation()
+            {
+                Console.WriteLine("UserInformation Constructor");
+            }
             [Required]
 
             private int UserName { get; set; }
