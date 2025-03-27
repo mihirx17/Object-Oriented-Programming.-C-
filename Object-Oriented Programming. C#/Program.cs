@@ -28,6 +28,7 @@ public class Student
         Console.WriteLine("Psnumber: " + Psnumber);
         Console.WriteLine("Name: " + Name);
         Console.WriteLine("Department: " + Department);
+
     }
 
 }
