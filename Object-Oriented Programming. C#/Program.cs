@@ -82,4 +82,6 @@ namespace UserModule
 //protected can be accessed within the class and its derived class
 //internal can be accessed within the assembly
 //protected cannot be accessed from the object of the class
+///Private cannot be accessed from the object of the class
+///public Can be accessed from the object of the class
 
