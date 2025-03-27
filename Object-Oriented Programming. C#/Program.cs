@@ -75,3 +75,12 @@ namespace UserModule
         }
     }
 }
+// inheritance transfer the properties and methods of the base class to the derived class.
+// Inheritance is a mechanism in which one class acquires the property of another class.
+//they are two types of inheritance in C#.
+//1. Single Inheritance
+//2. Multiple Inheritance
+// In C#, a class can inherit from only one class. It is called single inheritance.
+// In C#, a class can inherit from multiple interfaces. It is called multiple inheritance.
+//hybrid inheritance is a combination of single and multiple inheritance.
+//In C#, a class can inherit from multiple interfaces, but a class cannot inherit from multiple classes.
